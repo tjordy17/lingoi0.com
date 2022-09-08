@@ -1,0 +1,63 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  background-color: rgba(44, 81, 81, 0.05);
+}
+
+.social-container {
+  width: 400px;
+  margin: 5rem 10rem;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: "";
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, rgba(44, 81, 81, 0.7568627451), #292f2d);
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: rgba(44, 81, 81, 0.7568627451);
+  background: -webkit-linear-gradient(45deg, rgba(44, 81, 81, 0.7568627451), #292f2d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
