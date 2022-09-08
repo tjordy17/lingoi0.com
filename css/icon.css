@@ -10,12 +10,14 @@ body {
 }
 
 .social-icons {
-  padding: 0;
+  padding: 0rem;
   list-style: none;
-  margin: 1em;
+  margin: 0rem;
 }
 .social-icons li {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin: 0.15em;
   position: relative;
   font-size: 1.2em;
