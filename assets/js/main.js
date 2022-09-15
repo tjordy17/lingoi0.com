@@ -240,6 +240,19 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             e.preventDefault();
         });
 
+
+              /* ---------------------------------------------- /*
+         * Testimonials
+         /* ---------------------------------------------- */
+
+        if ($('.testimonials-slider').length > 0 ) {
+            $('.testimonials-slider').flexslider( {
+                animation: "slide",
+                smoothHeight: true
+            });
+        }
+
+
         
     });
 })(jQuery);
