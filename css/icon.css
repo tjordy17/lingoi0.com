@@ -1,6 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 body {
-  background-color: rgba(44, 81, 81, 0.05);
+  background-color: rgba(6, 9, 9, 0.05);
 }
 
 .social-container {
@@ -42,7 +42,7 @@ body {
   height: 55px;
   border-radius: 100%;
   display: block;
-  background: linear-gradient(45deg, rgba(44, 81, 81, 0.7568627451), #292f2d);
+  background: linear-gradient(45deg, rgba(6, 9, 9, 0.2235294118), rgba(9, 12, 47, 0.9058823529));
   -webkit-transition: all 265ms ease-out;
   transition: all 265ms ease-out;
 }
@@ -56,8 +56,8 @@ body {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
-  color: rgba(44, 81, 81, 0.7568627451);
-  background: -webkit-linear-gradient(45deg, rgba(44, 81, 81, 0.7568627451), #292f2d);
+  color: rgba(6, 9, 9, 0.2235294118);
+  background: -webkit-linear-gradient(45deg, rgba(6, 9, 9, 0.2235294118), rgba(9, 12, 47, 0.9058823529));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 265ms ease-in;
