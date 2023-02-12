@@ -39,8 +39,11 @@
 
 
       <section class="home-section home-parallax home-fade home-full-height bg-dark-60 agency-page-header" id="home" data-background="assets/images/master_bg.jpg">
+        
+
         <div class="titan-caption">
           <div class="caption-content">
+            <div class="time"><span id="timestamp">[Current Date and Time]</span></div>
             <div class="font-alt mb-30 titan-title-size-1">I am Jordy Ndibanje </div>
             <div class="font-alt mb-40 titan-title-size-3"> <span class="rotate">Bienツenu| Welc0me | ようこそ | Yamb∐</span>
             </div><a class="section-scroll btn btn-border-w btn-circle" href="#contact">Talk to me </a> <!--make button diff style-->
@@ -88,6 +91,7 @@
                   <div class="module-subtitle font-serif align-left">DEVELOPER,  ENTREPENEUR  &amp; CONSULTANT</div>
                   <p>Traveller, explorer, self-taught full-stack developer and entrepreneur, I'm a 23-year-old man currently based in Ontario, Canada. I'm passionate about technology, and I've built and collaborated in multiple public and personal projects over the years. I also develop SMEs and small businesses, and I'm now focusing on developing my smart contract skills in the metaverse. When I'm not coding, I'm rollerblading or playing soccer, or out exploring nature. I'm always looking for new ideas and collaborations, and I'm excited for what the future holds. </p>
                   <br> 
+               
                 
                   <div class="social-container">
                     <ul class="social-icons">
@@ -316,7 +320,16 @@
       </div>
       <div class="scroll-up"><a title="back-to-top" href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
-   
+    <script>
+      function getTime() {
+        let time = new Date();
+        let hours = time.getHours();
+        let minutes = time.getMinutes();
+        let seconds = time.getSeconds();
+        document.getElementById("timestamp").innerHTML = `${hours}:${minutes}:${seconds}`;
+      }
+      setInterval(getTime, 1000);
+    </script>
     <script src="assets/lib/jquery/dist/jquery.js"></script>
     <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/lib/wow/dist/wow.js"></script>

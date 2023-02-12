@@ -880,6 +880,13 @@ p, ol, ul, blockquote {
   margin: 0 0 20px;
 }
 
+.time { 
+	margin: 0px;
+	/* left: 50%; */
+
+    line-height: 52px;
+  }
+
 blockquote {
   border: 0;
   font-style: italic;
