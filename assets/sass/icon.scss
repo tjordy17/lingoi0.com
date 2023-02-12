@@ -1,10 +1,10 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 $timing        : 265ms;
-$iconColor     : #06090939;
+$iconColor     : #078888a0;
 $accent        : #090c2fe7;
-$bluefade      : #101029;
-$gradient      : #0b2243;
+$bluefade      : #15159b66;
+$gradient      : #1667d8af;
 
 @mixin transformScale($size: 1) {
     transform: scale($size);
