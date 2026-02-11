@@ -1,6 +1,21 @@
 import type { Metadata } from "next";
+import { Open_Sans, Roboto_Condensed } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700", "800"],
+  display: "optional",
+  variable: "--font-open-sans",
+});
+
+const robotoCondensed = Roboto_Condensed({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  display: "optional",
+  variable: "--font-roboto-condensed",
+});
 
 export const metadata: Metadata = {
   title: "LINGO",
@@ -21,38 +36,17 @@ export default function RootLayout({
         <meta content="My Portfolio" name="description" />
         <meta content="tjordy17" name="author" />
         <link
-          href="/assets/lib/bootstrap/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
-          rel="stylesheet"
-        />
-        <link href="/assets/lib/animate.css/animate.css" rel="stylesheet" />
-        <link href="/assets/lib/et-line-font/et-line-font.css" rel="stylesheet" />
-        <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet" />
-        <link
-          href="/assets/lib/simple-text-rotator/simpletextrotator.css"
-          rel="stylesheet"
-        />
-        <link href="/assets/css/style.css" rel="stylesheet" />
-        <link
-          id="color-scheme"
-          href="/assets/css/colors/default.css"
-          rel="stylesheet"
-        />
-        <link rel="stylesheet" href="/css/icon.css" />
-        <link
           rel="shortcut icon"
           href="/assets/images/favicon.png"
           type="image/x-icon"
         />
       </head>
-      <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+      <body
+        data-spy="scroll"
+        data-target=".onpage-navigation"
+        data-offset="60"
+        className={`${openSans.variable} ${robotoCondensed.variable} antialiased`}
+      >
         {children}
         <Script src="/assets/lib/jquery/dist/jquery.js" strategy="beforeInteractive" />
         <Script

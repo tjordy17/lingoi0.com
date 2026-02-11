@@ -118,14 +118,14 @@ export default function Home() {
                   </div>
                   <p>
                     Traveller, explorer, self-taught full-stack developer and
-                    entrepreneur, I'm a 23-year-old man currently based in
-                    Ontario, Canada. I'm passionate about technology, and I've
+                    entrepreneur, I&apos;m a 23-year-old man currently based in
+                    Ontario, Canada. I&apos;m passionate about technology, and I&apos;ve
                     built and collaborated in multiple public and personal
                     projects over the years. I also develop SMEs and small
-                    businesses, and I'm now focusing on developing my smart
-                    contract skills in the metaverse. When I'm not coding, I'm
-                    rollerblading or playing soccer, or out exploring nature. I'm
-                    always looking for new ideas and collaborations, and I'm
+                    businesses, and I&apos;m now focusing on developing my smart
+                    contract skills in the metaverse. When I&apos;m not coding, I&apos;m
+                    rollerblading or playing soccer, or out exploring nature. I&apos;m
+                    always looking for new ideas and collaborations, and I&apos;m
                     excited for what the future holds.
                   </p>
                   <br />
@@ -269,10 +269,10 @@ export default function Home() {
                   <div
                     title="bar"
                     className="progress-bar pb-dark"
-                    aria-valuenow="99"
+                    aria-valuenow={99}
                     role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
+                    aria-valuemin={0}
+                    aria-valuemax={100}
                   >
                     <span className="font-alt"></span>
                   </div>
@@ -284,10 +284,10 @@ export default function Home() {
                   <div
                     title="bar"
                     className="progress-bar pb-dark"
-                    aria-valuenow="13"
+                    aria-valuenow={13}
                     role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
+                    aria-valuemin={0}
+                    aria-valuemax={100}
                   >
                     <span className="font-alt"></span>
                   </div>
@@ -299,10 +299,10 @@ export default function Home() {
                   <div
                     title="bar"
                     className="progress-bar pb-dark"
-                    aria-valuenow="81"
+                    aria-valuenow={81}
                     role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
+                    aria-valuemin={0}
+                    aria-valuemax={100}
                   >
                     <span className="font-alt"></span>
                   </div>
@@ -314,10 +314,10 @@ export default function Home() {
                   <div
                     title="bar"
                     className="progress-bar pb-dark"
-                    aria-valuenow="50"
+                    aria-valuenow={50}
                     role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
+                    aria-valuemin={0}
+                    aria-valuemax={100}
                   >
                     <span className="font-alt"></span>
                   </div>
@@ -329,10 +329,10 @@ export default function Home() {
                   <div
                     title="bar"
                     className="progress-bar pb-dark"
-                    aria-valuenow="58"
+                    aria-valuenow={58}
                     role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
+                    aria-valuemin={0}
+                    aria-valuemax={100}
                   >
                     <span className="font-alt"></span>
                   </div>
@@ -344,10 +344,10 @@ export default function Home() {
                   <div
                     title="bar"
                     className="progress-bar pb-dark"
-                    aria-valuenow="40"
+                    aria-valuenow={40}
                     role="progressbar"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
+                    aria-valuemin={0}
+                    aria-valuemax={100}
                   >
                     <span className="font-alt"></span>
                   </div>
@@ -376,7 +376,7 @@ export default function Home() {
                     <div className="col-sm-8 col-sm-offset-2">
                       <blockquote className="quote-text font-alt">
                         Too many people spend money they earned..to buy things
-                        they don't want.to impress people that they don't like.
+                        they don&apos;t want.to impress people that they don&apos;t like.
                       </blockquote>
                     </div>
                   </div>
@@ -434,9 +434,9 @@ export default function Home() {
                   <div className="row">
                     <div className="col-sm-8 col-sm-offset-2">
                       <blockquote className="quote-text font-alt">
-                        Finance is not merely about making money. It's about
+                        Finance is not merely about making money. It&apos;s about
                         achieving our deep goals and protecting the fruits of our
-                        labor. It's about stewardship and, therefore, about
+                        labor. It&apos;s about stewardship and, therefore, about
                         achieving the good society.
                       </blockquote>
                     </div>
