@@ -234,10 +234,14 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
         $('.section-scroll').bind('click', function(e) {
             var anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top - 50
-            }, 1000);
-            e.preventDefault();
+            var target = anchor.attr('href');
+
+            if (target && target.charAt(0) === '#' && $(target).length) {
+                $('html, body').stop().animate({
+                    scrollTop: $(target).offset().top - 50
+                }, 1000);
+                e.preventDefault();
+            }
         });
 
 
